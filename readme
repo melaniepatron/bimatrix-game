@@ -1,0 +1,35 @@
+# Bimatrix Game Nash Equilibrium Analysis
+
+This repository contains Python and AMPL code for analyzing Nash equilibria in a bimatrix game representing a strategic technology adoption scenario between two firms. The code demonstrates:
+
+- Modeling and solving bimatrix games in AMPL via the PATH solver with `amplpy`
+- Computing mixed strategy Nash equilibria
+- Analyzing the effects of fixing either player to a pure strategy
+- Comparing expected payoffs and strategic implications for both players
+
+## Problem Context
+
+Two firms must each choose between two technology standards. Payoff matrices represent the business rewards for each strategy combination. The objective is to find Nash equilibria and understand how committing to a pure strategy affects outcomes for both competitors.
+
+## Requirements
+
+- Python 3.12
+- amplpy package
+- AMPL with the PATH solver
+
+## Usage
+
+1. Clone the repository.
+2. Ensure AMPL and the PATH solver are correctly installed.
+3. Run the main Python script to compute and display strategy solutions and payoff tables.
+
+## License
+
+This project is for educational use in Embry-Riddle Aeronautical University, MS Aerospace Business Analytics course, MA 510: Fundamentals of Optimization.
+
+## References
+Fourer, R., Gay, D. M., & Kernighan, B. W. (2009). AMPL: A modeling language for mathematical programming (Chapter 19). Brooks/Cole. ​
+
+---
+
+*See code comments for additional details and customization options.*
